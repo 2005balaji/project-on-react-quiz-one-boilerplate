@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(105, 76, 213);
+} 
+
+span{
+    text-align: end;
+}
+
+.resultBox{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    font: bold;
+    color: black;
+
+}
+
+.resultBox-1{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 250px 200px;
+    align-items: center;
+    align-items: center;
+
+}
+
+.resultBox-1 span{
+  
+    text-align: end;
+
+}
+
+.resultBox-1 h4{
+  
+    text-align: left;
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 450px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.endButtons{
+    font-size: small; 
+ display: flex;
+  flex-direction: row;
+  justify-content: center;
+    gap: 15px;
+}
+
+.endButtons button{
+    border: 1px solid black;
+}
+
+button:hover{
+    cursor: pointer;
+}
